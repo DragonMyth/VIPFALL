@@ -1,2 +1,60 @@
-/var/spool/torque/mom_priv/jobs/3247752.dedicated-sched.pace.gatech.edu.SC: line 9: activate: No such file or directory
-python: can't open file 'Pt_111.py': [Errno 2] No such file or directory
+sh: /tmp/uniqnodefile: Permission denied
+[mpiexec@iw-p31-7-l.pace.gatech.edu] find_pbs_node_id (tools/bootstrap/external/pbs_launch.c:28): user specified host not in the PBS allocated list
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYDT_bscd_pbs_launch_procs (tools/bootstrap/external/pbs_launch.c:73): error finding PBS node ID for host iw-p31-7-r.pace.gatech.edu
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYDT_bsci_launch_procs (tools/bootstrap/src/bsci_launch.c:17): launcher returned error while launching processes
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYD_pmci_launch_procs (pm/pmiserv/pmiserv_pmci.c:135): launcher cannot launch processes
+[mpiexec@iw-p31-7-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager returned error launching processes
+[proxy:0:0@iw-p31-7-l.pace.gatech.edu] HYDU_sock_connect (utils/sock/sock.c:172): unable to connect from "iw-p31-7-l.pace.gatech.edu" to "iw-p31-7-l.pace.gatech.edu" (Connection refused)
+[proxy:0:0@iw-p31-7-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:189): unable to connect to server iw-p31-7-l.pace.gatech.edu at port 57584 (check for firewalls!)
+[mpiexec@iw-p31-7-l.pace.gatech.edu] find_pbs_node_id (tools/bootstrap/external/pbs_launch.c:28): user specified host not in the PBS allocated list
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYDT_bscd_pbs_launch_procs (tools/bootstrap/external/pbs_launch.c:73): error finding PBS node ID for host iw-p31-7-r.pace.gatech.edu
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYDT_bsci_launch_procs (tools/bootstrap/src/bsci_launch.c:17): launcher returned error while launching processes
+[mpiexec@iw-p31-7-l.pace.gatech.edu] HYD_pmci_launch_procs (pm/pmiserv/pmiserv_pmci.c:135): launcher cannot launch processes
+[mpiexec@iw-p31-7-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager returned error launching processes
+[proxy:0:0@iw-p31-7-l.pace.gatech.edu] HYDU_sock_connect (utils/sock/sock.c:172): unable to connect from "iw-p31-7-l.pace.gatech.edu" to "iw-p31-7-l.pace.gatech.edu" (Connection refused)
+[proxy:0:0@iw-p31-7-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:189): unable to connect to server iw-p31-7-l.pace.gatech.edu at port 51736 (check for firewalls!)
+[cli_7]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+[cli_5]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+[cli_3]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+[cli_12]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+[cli_10]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+[cli_8]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+[cli_1]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+[cli_2]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[cli_4]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+[cli_6]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+[cli_9]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+[cli_13]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+Traceback (most recent call last):
+  File "Pt_111COCalc.py", line 25, in <module>
+    relax_slab_ads.run(fmax=0.05)
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/optimize/optimize.py", line 162, in run
+    self.set_force_consistent()
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/optimize/optimize.py", line 214, in set_force_consistent
+    self.atoms.get_potential_energy(force_consistent=True)
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/atoms.py", line 680, in get_potential_energy
+    self, force_consistent=force_consistent)
+  File "/nv/hp13/yzhang3027/dev/espresso/__init__.py", line 2197, in get_potential_energy
+    self.update(atoms)
+  File "/nv/hp13/yzhang3027/dev/espresso/__init__.py", line 1634, in update
+    self.read(atoms)
+  File "/nv/hp13/yzhang3027/dev/espresso/__init__.py", line 1750, in read
+    self.checkerror()
+  File "/nv/hp13/yzhang3027/dev/espresso/__init__.py", line 2315, in checkerror
+    raise RuntimeError, msg[:len(msg)-1]
+RuntimeError:      Error in routine read_input (2):
+     opening input file

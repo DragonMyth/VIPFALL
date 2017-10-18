@@ -1,20 +1,20 @@
 ---------------------------------------
-Begin PBS Prologue Thu Sep 21 12:17:23 EDT 2017
-Job ID:     3247752.dedicated-sched.pace.gatech.edu
+Begin PBS Prologue Wed Oct 11 21:15:47 EDT 2017
+Job ID:     3378170.dedicated-sched.pace.gatech.edu
 User ID:    yzhang3027
-Job name:   optimizer
+Job name:   team1
 Queue:      joe
-End PBS Prologue Thu Sep 21 12:17:23 EDT 2017
+End PBS Prologue Wed Oct 11 21:15:47 EDT 2017
 ---------------------------------------
 ---------------------------------------
-Begin PBS Epilogue Thu Sep 21 12:17:24 EDT 2017
-Job ID:     3247752.dedicated-sched.pace.gatech.edu
+Begin PBS Epilogue Wed Oct 11 21:15:54 EDT 2017
+Job ID:     3378170.dedicated-sched.pace.gatech.edu
 User ID:    yzhang3027
-Job name:   optimizer
-Resources:  neednodes=1:ppn=16,nodes=1:ppn=16,walltime=12:00:00
-Rsrc Used:  cput=00:00:00,energy_used=0,mem=0kb,vmem=0kb,walltime=00:00:01
+Job name:   team1
+Resources:  neednodes=1:ppn=14,nodes=1:ppn=14,walltime=120:00:00
+Rsrc Used:  cput=00:00:00,energy_used=0,mem=42824kb,vmem=728700kb,walltime=00:00:07
 Queue:      joe
 Nodes:     
-rich133-c34-30-l.pace.gatech.edu
-End PBS Epilogue Thu Sep 21 12:17:24 EDT 2017
+iw-p31-7-l.pace.gatech.edu
+End PBS Epilogue Wed Oct 11 21:15:54 EDT 2017
 ---------------------------------------
